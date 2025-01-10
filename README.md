@@ -38,14 +38,14 @@ Before running the tests, ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/MichalitoOo/playwright-backend-demo
    cd backend-test-automation
    ```
 
 2. Install dependencies:
 
    ```bash
-   npm install
+   npm install ...
    ```
 
 3. (Optional) Add any additional test data or schemas as needed.
