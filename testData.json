@@ -1,0 +1,37 @@
+{
+  "fetchUserByID": {
+    "maxResponseTime": 1000,
+    "endpoint": "https://reqres.in/api/users",
+    "queryParams": {
+      "id": 12
+    }
+  },
+  "fetchUsersOnPage": {
+    "maxResponseTime": 1000,
+    "endpoint": "https://reqres.in/api/users",
+    "queryParams": {
+      "page": 2
+    },
+    "validationData": {
+      "total": 12,
+      "users": [
+        {
+          "index": 0,
+          "last_name": "Lawson"
+        },
+        {
+          "index": 1,
+          "last_name": "Ferguson"
+        }
+      ]
+    }
+  },
+  "createUser": {
+    "maxResponseTime": 1000,
+    "endpoint": "https://reqres.in/api/users",
+    "body": {
+      "name": "Michal",
+      "email": "m.nalevanko@gmail.com"
+    }
+  }
+}
